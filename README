@@ -1,6 +1,0 @@
-python test_readlog.py DIRECTORY
-- DIRECTORY ahol a log file-ok vannak
-
-Az rsrp array-bol kell majd kiolvasni a jelerosseg ertekeket, ez a test_readlog.py-ben elerheto.
-rsrp array dimenzioja [timsteps, 4], minden egyes timestamp-hez 4 rsrp (jelerosseg) ertek van (kulonbozo tx es rx antennaknak megfeleloen),
-ebbol majd az egyiket vesszuk.
